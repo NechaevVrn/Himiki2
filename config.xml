@@ -1,0 +1,8 @@
+<config>
+  <measureprofileid>-1</measureprofileid>
+  <connectionstring>Data Source=sniffdb.sdf;encryption mode=platform default;Password=password;</connectionstring>
+  <comport>COM3</comport>
+  <stabletime>6</stabletime>
+  <stableamplitude>5</stableamplitude>
+  <hardware>flow</hardware>
+</config>

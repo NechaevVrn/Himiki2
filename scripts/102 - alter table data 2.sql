@@ -1,0 +1,6 @@
+ALTER TABLE [Data] 
+ADD CONSTRAINT [FK_Data_Sensors] 
+  FOREIGN KEY([SensorID])
+  REFERENCES [Sensors] ([ID])
+    ON UPDATE CASCADE
+    ON DELETE CASCADE

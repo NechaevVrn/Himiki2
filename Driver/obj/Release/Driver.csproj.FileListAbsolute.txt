@@ -1,0 +1,4 @@
+C:\Users\Лихотин\Desktop\MAG8\Driver\bin\Release\Driver.dll
+C:\Users\Лихотин\Desktop\MAG8\Driver\bin\Release\Driver.pdb
+C:\Users\Лихотин\Desktop\MAG8\Driver\obj\Release\Driver.dll
+C:\Users\Лихотин\Desktop\MAG8\Driver\obj\Release\Driver.pdb

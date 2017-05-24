@@ -1,0 +1,6 @@
+ALTER TABLE Measures
+  ADD CONSTRAINT FK_Measures_GroupTree
+  FOREIGN KEY (GroupID)
+    REFERENCES GroupTree (ID) 
+      ON UPDATE CASCADE 
+      ON DELETE SET NULL

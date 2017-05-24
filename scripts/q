@@ -1,0 +1,2 @@
+ALTER TABLE [GroupTree]  
+DROP CONSTRAINT [FK_GroupTreeIerarchy] 

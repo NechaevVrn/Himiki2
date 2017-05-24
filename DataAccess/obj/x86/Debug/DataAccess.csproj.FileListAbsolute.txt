@@ -1,0 +1,8 @@
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\bin\x86\Debug\DataAccess.dll
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\bin\x86\Debug\DataAccess.pdb
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\bin\x86\Debug\DataModel.dll
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\bin\x86\Debug\System.Data.SqlServerCe.dll
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\bin\x86\Debug\DataModel.pdb
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\obj\x86\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\obj\x86\Debug\DataAccess.dll
+C:\Users\Лихотин\Desktop\MAG8\DataAccess\obj\x86\Debug\DataAccess.pdb

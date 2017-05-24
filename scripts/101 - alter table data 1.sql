@@ -1,0 +1,6 @@
+ALTER TABLE [Data]  
+ADD CONSTRAINT [FK_Data_Measures] 
+  FOREIGN KEY([MeasureID])
+  REFERENCES [Measures] ([ID])
+    ON UPDATE CASCADE
+    ON DELETE CASCADE

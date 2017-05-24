@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B50BD30-1D3D-4512-88CD-6B29FB454A42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuadroSoft.Enose</RootNamespace>
+    <AssemblyName>Enose</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>QuadroSoft.Enose.Program</StartupObject>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialogs\FormCreateMask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormCreateMask.Designer.cs">
+      <DependentUpon>FormCreateMask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormEditSensors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormEditSensors.Designer.cs">
+      <DependentUpon>FormEditSensors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormMeasureProfileSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormMeasureProfileSelect.Designer.cs">
+      <DependentUpon>FormMeasureProfileSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormReport.Designer.cs">
+      <DependentUpon>FormReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormSaveProfileType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormSaveProfileType.Designer.cs">
+      <DependentUpon>FormSaveProfileType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormSelectOneGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormSelectOneGroup.Designer.cs">
+      <DependentUpon>FormSelectOneGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormSelectOneMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormSelectOneMeasure.Designer.cs">
+      <DependentUpon>FormSelectOneMeasure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\FormStringRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\FormStringRequest.Designer.cs">
+      <DependentUpon>FormStringRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCompare.Designer.cs">
+      <DependentUpon>FormCompare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExperiment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExperiment.Designer.cs">
+      <DependentUpon>FormExperiment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMeasure.Designer.cs">
+      <DependentUpon>FormMeasure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProcessMeasures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProcessMeasures.Designer.cs">
+      <DependentUpon>FormProcessMeasures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormViewMeasure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormViewMeasure.Designer.cs">
+      <DependentUpon>FormViewMeasure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\ExtendedPlotterBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\ExtendedPlotterBox.designer.cs">
+      <DependentUpon>ExtendedPlotterBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\MeasureTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\MeasureTree.Designer.cs">
+      <DependentUpon>MeasureTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\MovableGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\MovableGraph.Designer.cs">
+      <DependentUpon>MovableGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\MultiGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\MultiGraph.Designer.cs">
+      <DependentUpon>MultiGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\Plotter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\Plotter.designer.cs">
+      <DependentUpon>Plotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\PlotterBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graph\PlotterBox.designer.cs">
+      <DependentUpon>PlotterBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Dialogs\FormCreateMask.resx">
+      <DependentUpon>FormCreateMask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormEditSensors.resx">
+      <DependentUpon>FormEditSensors.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormMeasureProfileSelect.resx">
+      <DependentUpon>FormMeasureProfileSelect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormReport.resx">
+      <DependentUpon>FormReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormSaveProfileType.resx">
+      <DependentUpon>FormSaveProfileType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormSelectOneGroup.resx">
+      <DependentUpon>FormSelectOneGroup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormSelectOneMeasure.resx">
+      <DependentUpon>FormSelectOneMeasure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\FormStringRequest.resx">
+      <DependentUpon>FormStringRequest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCompare.resx">
+      <DependentUpon>FormCompare.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExperiment.resx">
+      <DependentUpon>FormExperiment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMeasure.resx">
+      <DependentUpon>FormMeasure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProcessMeasures.resx">
+      <DependentUpon>FormProcessMeasures.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormViewMeasure.resx">
+      <DependentUpon>FormViewMeasure.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\ExtendedPlotterBox.resx">
+      <DependentUpon>ExtendedPlotterBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\MeasureTree.resx">
+      <DependentUpon>MeasureTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\MovableGraph.resx">
+      <DependentUpon>MovableGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\MultiGraph.resx">
+      <DependentUpon>MultiGraph.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\Plotter.resx">
+      <DependentUpon>Plotter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graph\PlotterBox.resx">
+      <DependentUpon>PlotterBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{A8E6D4BC-14E2-47AC-8084-49A4E781D532}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModel\DataModel.csproj">
+      <Project>{B0D85E5E-F9C8-4E9D-B0F3-F92A66D75F84}</Project>
+      <Name>DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Driver\Driver.csproj">
+      <Project>{6A23DBD7-2E17-4F64-8C5A-CDB10270BF24}</Project>
+      <Name>Driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Statistics\Statistics.csproj">
+      <Project>{7A0E8144-0662-4EA7-8FC3-03E45EFF67CD}</Project>
+      <Name>Statistics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>del $(TargetDir)\*.pdb</PostBuildEvent>
+    <PreBuildEvent>copy $(SolutionDir)\include\sqlceme35.dll $(TargetDir)\
+copy $(SolutionDir)\include\sqlceqp35.dll  $(TargetDir)\
+copy $(SolutionDir)\include\sqlcese35.dll $(TargetDir)\
+copy $(SolutionDir)\include\System.Data.SqlServerCe.dll  $(TargetDir)\</PreBuildEvent>
+  </PropertyGroup>
+</Project>
